@@ -1107,7 +1107,7 @@ export interface SculptureHeroProps {
   layoutMode?: "stacked" | "split"
   /** Position of the headline on desktop: "center" (default stacked) or "left" (split 2-column layout). */
   headlinePosition?: "center" | "left"
-  /** Slot di bawah CTA bawaan. Dipakai untuk paragraf/tombol/pill npx milik Skyc. */
+  /** Slot di bawah CTA bawaan. Dipakai untuk paragraf/tombol/pill npx milik Zennx. */
   children?: React.ReactNode
   showCredit?: boolean
   className?: string
@@ -1119,9 +1119,9 @@ const DEFAULTS = {
   darkSrc: "./favicon.png",
   mobileSrc: "./favicon.png",
   mobileDarkSrc: "./favicon.png",
-  imageAlt: "Skyc — universal media downloader",
+  imageAlt: "Zennx — universal media downloader",
   imageBackground: "transparent",
-  brand: "Skyc®",
+  brand: "Zennx®",
   navLinks: [] as SculptureHeroLink[],
   navCta: { label: "", href: "" },
   eyebrow: "Zero-Cloud Architecture • 100% Free & Open Source",
@@ -1267,9 +1267,9 @@ const CSS = `
   .sh-split .sh-h1{text-align:left}
   .sh-headline-left .sh-h1{text-align:left}
 }
-.skyc-hero .sh-eyebrow{width:fit-content;padding:8px 18px;gap:10px;border:1px solid rgba(255,255,255,0.08);border-radius:999px;background:rgba(255,255,255,0.02);font-size:14px;letter-spacing:0;text-transform:none;opacity:1}
-.skyc-hero .sh-eyebrow::before{width:8px;height:8px;border-radius:50%;background:#2fbf71;opacity:1}
-.skyc-hero .sh-h1{font-weight:400;letter-spacing:-0.04em}
+.zennx-hero .sh-eyebrow{width:fit-content;padding:8px 18px;gap:10px;border:1px solid rgba(255,255,255,0.08);border-radius:999px;background:rgba(255,255,255,0.02);font-size:14px;letter-spacing:0;text-transform:none;opacity:1}
+.zennx-hero .sh-eyebrow::before{width:8px;height:8px;border-radius:50%;background:#2fbf71;opacity:1}
+.zennx-hero .sh-h1{font-weight:400;letter-spacing:-0.04em}
 @media (prefers-reduced-motion:reduce){
   .sh-hint::before{animation:none}
   .sh-canvas,.sh-fallback,.sh-btn,.sh-btn svg,.sh-txt svg{transition:none}

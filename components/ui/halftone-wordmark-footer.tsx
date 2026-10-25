@@ -181,8 +181,8 @@ const HWF_CSS = `
 `
 
 export default function HalftoneWordmarkFooter({
-  wordmark = "skyc",
-  label = "Skyc Downloader",
+  wordmark = "zennx",
+  label = "Zennx Downloader",
   meta = "",
   columns = DEFAULT_COLUMNS,
   backToTop = true,
@@ -488,7 +488,7 @@ export default function HalftoneWordmarkFooter({
       </div>
       <div className="hwf-rule">
         <div className="hwf-copyright-bottom" style={{ fontSize: "0.78rem", opacity: 0.75 }}>
-          &copy; 2026 Skyc Project &bull; <strong style={{ color: "var(--hwf-warm, #D97757)", fontWeight: 600, display: "inline" }}>ELSKYX W/ ANTIGRAVITY</strong> &bull; Free &amp; Open Source (GPL-3.0)
+          &copy; 2026 Zennx Project &bull; <strong style={{ color: "var(--hwf-warm, #D97757)", fontWeight: 600, display: "inline" }}>ELSKYX W/ ANTIGRAVITY</strong> &bull; Free &amp; Open Source (GPL-3.0)
         </div>
         {backToTop ? (
           <button type="button" className="hwf-up" onClick={toTop}>
