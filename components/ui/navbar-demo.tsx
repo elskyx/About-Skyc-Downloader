@@ -78,7 +78,7 @@ export default function NavbarDemo() {
           {/* Main nav */}
           <div className="flex items-center gap-6">
             <a href="#" className="text-primary hover:text-primary/90 font-bold text-lg">
-              <h2>Zennx</h2>
+              <h2>Skyc</h2>
             </a>
             {/* Navigation menu - removed h-full classes and simplified styling */}
             <NavigationMenu className="max-md:hidden">
@@ -100,7 +100,7 @@ export default function NavbarDemo() {
         {/* Right side */}
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" size="sm" className="text-sm">
-            <a href="https://github.com/elskyx/Zennx" target="_blank" rel="noopener">Sign In</a>
+            <a href="https://github.com/elskyx/Skyc" target="_blank" rel="noopener">Sign In</a>
           </Button>
           <Button asChild size="sm" className="text-sm">
             <a href="#downloads">Get Started</a>

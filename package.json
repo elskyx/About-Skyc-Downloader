@@ -1,7 +1,7 @@
 {
-  "name": "about-zennx-downloader",
-  "version": "1.8.67",
-  "description": "About Zennx Downloader - Universal Zero-Cloud Media Downloader Showcase",
+  "name": "about-skyc-downloader",
+  "version": "1.6.7",
+  "description": "About Skyc Downloader - Universal Zero-Cloud Media Downloader Showcase",
   "private": true,
   "scripts": {
     "dev": "vite",

@@ -1,4 +1,4 @@
-# robots.txt for Zennx Downloader Introducing (GitHub Pages)
+# robots.txt for Skyc Downloader Introducing (GitHub Pages)
 User-agent: *
 Allow: /
 
